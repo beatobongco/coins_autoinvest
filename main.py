@@ -8,7 +8,7 @@ import requests
 
 API_KEY = os.environ['COINS_API_KEY']
 API_SECRET = os.environ['COINS_API_SECRET'].encode('utf-8')
-PHP_AMOUNT=os.environ['PHP_AMOUNT']
+PHP_AMOUNT= os.environ['PHP_AMOUNT']
 
 
 def get_nonce():
